@@ -1,0 +1,727 @@
+/*CSS for the homepage*/
+
+*{
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: rgb(166, 190, 213);
+    
+}
+.wrapper{
+    /*display: flex;*/
+    display: inline-block;
+    /*position: relative;*/
+    
+}
+.wrapper .navElements{
+    background-color: aliceblue;
+    width: 240px;
+    height: 100%;
+    position: fixed;
+    padding: 25px 5px;
+    top: 0;
+    left: 0;
+    
+    
+}
+.handyLOGO{
+    height: 70px;
+    margin-left: 50px;
+    display: block;
+    margin-bottom: 110px;
+    border: 3px solid  rgb(29, 29, 58) ;
+    border-radius: 50px;
+}
+
+.navLinks li{
+    padding: 15px 0;
+    transition: 0.7s;  
+    
+         
+}
+.navLinks li:hover{
+    background-color: aqua;
+    border-radius: 6px; 
+    padding: 15px;   
+}
+.navLinks li:hover a{
+    color: rgb(190, 138, 59);
+    
+}
+.navLinks li a{
+    color: black;
+    font-size: 18px;
+    display: block;
+    
+      
+}
+.navLinks li a i{
+    font-size: 23px;
+    padding-right: 7px;
+    
+    
+}
+.wrapper .mainCONTENT{
+    width: 100%;
+    height: 400px;
+    margin-left: 310px;
+    margin-top: 200px;
+    max-width: 650px;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    margin-bottom: 20px;
+
+    
+}
+.mainhandyLOGO{
+    height: 500px;
+    position: relative;
+    left: 550px;
+    bottom: 300px;
+    
+    
+    
+}
+.spanONE{
+    color: rgb(99, 13, 95);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.appSlogan{
+    color: rgb(99, 13, 95);
+    font-weight: bolder; 
+    font-size: 16px;  
+}
+
+.overviewcontainer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    margin-left: 20px;
+    width: 1100px;
+    height: 350px;
+    margin-top: 5px;
+    position: relative;
+    bottom: 240px;
+}
+
+.OverviewContainer-block{
+    background-color:rgb(248, 241, 248);
+    border: 4px solid rgb(99, 13, 95) ;
+    padding: 3px;
+    width: 800px;
+    
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    border-radius: 15px;
+}
+.Overviewblock-image{
+    
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: contain;
+    border-radius: 15px 15px 0 0;
+
+}
+.one{
+    background-image: url(images/shoppinglist.jpeg);
+}
+.two{
+    background-image: url(images/scoreboard.png);
+}
+.three{
+    background-image: url(images/unitconverter.jpg);
+}
+
+/*CSS FOR UNIT CONVERTER STARTS HERE*/
+
+.UCmainCONTENT{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.container-block{
+margin-left: 390px;
+background-color: rgb(99, 13, 95);
+border-radius: 17px;
+padding: 15px;
+align-items: center;
+margin-top: 55px;
+width: 250px;
+
+}
+.converterinput{
+    display: block;
+    padding: 7px;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-left: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+
+}
+.buttominput{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+}
+.CB{
+    color: aqua;
+    text-align: center;
+}
+
+/*CSS for shopping list starts here*/
+
+.shoppingpromptimage{
+    width: 80px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.shoppingpromptContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: blue; */
+    width: 700px;
+    height: 700px;
+    margin-left:500px;
+    
+}
+
+.shoppingprompt{
+    margin-top: 200px;
+    border: 1px solid  black ;
+    border-radius: 10px;
+    background-color: rgb(252, 248, 251);
+    height: 300px;
+    width: 550px;
+    text-align: center;
+    padding: 10px;
+    
+}
+.shoppromptText1{
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-top: 28px;
+
+}
+.shoppromptText2{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+
+}
+.continueButton{
+    margin-top: 40px;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.continueButton:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+.shoppinglistBODY{
+    background-image: url(images/handyapp\ shopping\ list\ BG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+.shoppinglistContainer{
+    background-color: rgb(99, 13, 95, .7);
+    border-radius: 18px;
+    padding: 15px;
+    padding-bottom: 59px;
+    align-content: center;
+    margin-top: 55px;
+    margin-bottom: 80px;
+    width: 1200px;
+    margin-left: 280px;
+    display: grid;
+   grid-template-columns: 2fr 1fr 1fr;
+    
+    
+
+}
+.iteminput{
+    padding: 13px;
+    margin: 9px;
+    border-radius: 7px;
+    border-color: black;
+    width: 450px;
+    border-width: 3.2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    
+
+}
+.shoppingDigits{
+    padding: 13px;
+    margin: 9px;
+    border-radius: 7px;
+    border-color: black;
+    border-width: 3.2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    
+    
+
+}
+.listheader{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sumtotalcontainer{
+    background-color: rgb(241, 199, 7);
+    border-radius: 18px;
+    padding: 3px;
+    width: 1220px;
+    margin-left: 270px;
+    margin-top: 50px;
+    display: flex;
+    bottom: 0;
+    position: fixed;
+
+    
+}
+.total{
+    margin-left: 730px;
+    font-size: larger;
+}
+.clearButton{
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 34px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: larger;
+
+}
+
+/* CSS for Score board starts here */
+
+.teampromptContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: blue; */
+    width: 700px;
+    height: 700px;
+    margin-left: 500px;
+    
+}
+
+.teamprompt{
+    margin-top: 200px;
+    border: 1px solid  black ;
+    border-radius: 10px;
+    background-color: rgb(252, 248, 251);
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    
+
+}
+
+.teamprompt img{
+    width: 80px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.promptText1{
+    
+    font-family: 'Just Another Hand', cursive;
+    font-size: 35px;
+     
+}
+
+.promptText2{
+    
+    font-family: 'Just Another Hand', cursive;
+    font-size: 30px;   
+}
+
+.teamselection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 60px;
+    /*background-color: aqua;*/
+}
+
+.teamselection div{
+    font-family: 'Just Another Hand', cursive;
+    font-size: 30px;
+    margin: 11px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    border: 1px solid  black ;
+    background-color: rgb(82, 206, 223);
+    
+    
+
+}
+
+.teamselection div:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+/*CSS FOR NumOfPlayerTwo STARTS HERE*/
+.CountdownAndPlayerheading{
+    margin-left: 243px ;
+    width: 1260px;
+    height: 215px;
+    background-color: rgb(166, 190, 213);
+    top: 0;
+    position: fixed;
+}
+
+
+.countdownContainer{
+    margin-top: 10px;
+    margin-left: 355px;
+    text-align: center;
+    border: 3px solid black;
+    padding: 6px;
+    background-color: rgb(58, 166, 185);
+    width: 500px;
+    height: 80px;
+    position: fixed;
+    
+}
+
+.countdownContainer button{
+    font-family: consolas, monospace;
+    font-weight: 600;
+    width: 55px;
+    height: 25px;
+    border-radius: 12px;
+    border: 2px solid black;
+    margin-top: 5px;
+
+}
+
+.CoutdownDisplay{
+    font-family: consolas, monospace;
+    font-size: 30px;
+    background-color: black;
+    color: rgb(14, 167, 26);
+}
+
+.TwoPlayersContainerHeading{
+    margin-top: 100px;
+    margin-left: 372px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(99, 13, 95);
+    padding: 15px;
+    border: 3px solid black;
+    position: fixed;
+
+}
+
+.customNamneTextBox{
+    padding: 8px;
+    margin: 9px;
+    border-radius: 7px;
+    border-color: black;
+    width: 200px;
+    border-width: 3.2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.defaultNameText{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 45px;
+    color: white;
+}
+
+.TwoPlayersScoresContainer{
+    background-color: rgb(99, 13, 95);
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    align-content: center;
+    width: 520px;
+    margin-left: 590px;
+    margin-top: 230px;
+    margin-bottom: 70px;
+    padding: 40px;
+    border: 3px solid black;
+    
+    
+}
+
+.playerOneTextBox{
+    padding: 8px;
+    border-radius: 7px;
+    border-color: black;
+    width: 200px;
+    border-width: 3.2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 12px;
+    
+    
+}
+
+.playerTwoTextBox{
+    padding: 8px;
+    margin-right: 12px;
+    margin-left: 12px;
+    border-radius: 7px;
+    border-color: black;
+    width: 200px;
+    border-width: 3.2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.resultsDisplayContainer{
+    display: flex;
+    flex-direction: row;
+    width: 520px;
+    background-color: rgb(241, 199, 7);
+    border: 3px solid black;
+    margin-left: 590px;
+    padding: 8px;
+    bottom: 0;
+    position: fixed;
+    
+    
+}
+
+.playerOneResult{
+    padding: 8px;
+    margin-left: 45px;
+    border-radius: 7px;
+    border-color: black;
+    width: 200px;
+    border-width: 3.2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    
+
+}
+
+.playerTwoResult{
+    padding: 8px;
+    margin-left: 13px;
+    margin-right: 12px;
+    border-radius: 7px;
+    border-color: black;
+    width: 200px;
+    border-width: 3.2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.ThreePlayersContainerHeading{
+    margin-top: 100px;
+    margin-left: 265px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(99, 13, 95);
+    padding: 15px;
+    border: 3px solid black;
+    position: fixed;
+
+}
+.ThreePlayersScoresContainer{
+    background-color: rgb(99, 13, 95);
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    align-content: center;
+    width: 750px;
+    margin-left: 475px;
+    margin-top: 230px;
+    margin-bottom: 70px;
+    padding: 40px;
+    border: 3px solid black;
+    
+}
+.playerThreeTextBox{
+    padding: 8px;
+    margin-left: 12px;
+    border-radius: 7px;
+    border-color: black;
+    width: 200px;
+    border-width: 3.2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.playerTwoResultThree{
+    padding: 8px;
+    margin-left: 20px;
+    /*margin-right: 12px;*/
+    border-radius: 7px;
+    border-color: black;
+    width: 200px;
+    border-width: 3.2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.playerThreeResult{
+    padding: 8px;
+    margin-left: 24px;
+    border-radius: 7px;
+    border-color: black;
+    width: 200px;
+    border-width: 3.2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.resultsDisplayContainerTHREE{
+    display: flex;
+    flex-direction: row;
+    width: 750px;
+    background-color: rgb(241, 199, 7);
+    border: 3px solid black;
+    margin-left: 475px;
+    padding: 8px;
+    bottom: 0;
+    position: fixed;
+    
+}
+
+.FourPlayersContainerHeading{
+    margin-top: 100px;
+    margin-left: 160px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(99, 13, 95);
+    padding: 15px;
+    border: 3px solid black;
+    position: fixed;
+
+}
+
+.FourPlayersScoresContainer{
+    background-color: rgb(99, 13, 95);
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    align-content: center;
+    width: 960px;
+    margin-left: 375px;
+    margin-top: 230px;
+    margin-bottom: 70px;
+    padding: 40px;
+    border: 3px solid black;
+    
+}
+
+.playerFourTextBox{
+    padding: 8px;
+    margin-left: 12px;
+    border-radius: 7px;
+    border-color: black;
+    width: 200px;
+    border-width: 3.2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.playerFourResult{
+    padding: 8px;
+    margin-left: 24px;
+    border-radius: 7px;
+    border-color: black;
+    width: 200px;
+    border-width: 3.2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.resultsDisplayContainerFOUR{
+    display: flex;
+    flex-direction: row;
+    width: 960px;
+    background-color: rgb(241, 199, 7);
+    border: 3px solid black;
+    margin-left: 375px;
+    padding: 8px;
+    bottom: 0;
+    position: fixed;
+    
+}
+.playerThreeResultFour{
+    padding: 8px;
+    margin-left: 15px;
+    border-radius: 7px;
+    border-color: black;
+    width: 200px;
+    border-width: 3.2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.playerFourResult{
+    padding: 8px;
+    margin-left: 17px;
+    border-radius: 7px;
+    border-color: black;
+    width: 200px;
+    border-width: 3.2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+
+}
