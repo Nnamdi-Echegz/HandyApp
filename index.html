@@ -13,59 +13,68 @@
 </head>
 <body>
 
-    <div class="wrapper">
-        <div class="navElements">
-            <div>
-            <img src="images/handyappfininshedPIC.PNG" class="handyLOGO">
+    <div class="sidemenue" id="sidemnu">
+            <div class="smallLogoContainer">
+                <img src="images/handyappfininshedPIC.PNG" class="handyLOGO">
+                <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">×</a>
             </div>
 
-            <ul class="navLinks">
-                <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
-                <li><a href="ShoppingPrompt.html"><i class="fas fa-shopping-cart"></i>Shopping List</a></li>
-                <li><a href="scoreBoard.html"><i class="fas fa-edit"></i>Score Board</a></li>
-                <li><a href="unitconverter.html"><i class="fas fa-balance-scale"></i>Unit Converter</a></li>
+            <div class="navelements">
+                <a href="index.html"><i class="fas fa-home"></i>Home</a>
+                <a href="ShoppingPrompt.html"><i class="fas fa-shopping-cart"></i>Shopping List</a>
+                <a href="scoreBoard.html"><i class="fas fa-edit"></i>Score Board</a>
+                <a href="unitconverter.html"><i class="fas fa-balance-scale"></i>Unit Converter</a>
             
-            </ul>
-        </div>
-        <div class="mainCONTENT">
-            <h2>Hello Dear User!</h2>
-            <h1>Welcome TO <span class="spanONE">HandyApp</span></h1>
-            <h3>Enabling you peform major day-to-day metric system convertions, keep record of game scores during those competitive gaming moments
+            </div>
+        
+    </div>
+
+    <div class="pageBody" id="pagebdy">
+        <button class="openbutton" onclick="openNav()">☰</button>
+        <div class="descriptionAndLogoContainer">
+            <div class="appDescriptionContainer">
+                <h2>Hello Dear User!</h2>
+                <h1>Welcome TO <span class="spanONE">HandyApp</span></h1>
+                <h3>Enabling you peform major day-to-day metric system convertions, keep record of game scores during those competitive gaming moments
                 while hanging out with family & friends and giving you the perfect and effective shopping experience with a specially designed and
                 user friendly shopping list maker !
-            </h3>
-            <h4 class="appSlogan">...a hand in need? It's the App indeed</h4>
-            <img src="images/newhandyapplogo.PNG" class="mainhandyLOGO">
+                </h3>
+                <h4 class="appSlogan">...a hand in need? It's the App indeed</h4>
 
+                
+            </div>
+            <img src="images/newhandyapplogo.PNG" class="mainhandyLOGOTwo">
+ 
+        </div> 
 
-            <div class="overviewcontainer">
-                <div class="OverviewContainer-block">
-                    <div class="Overviewblock-image one"></div>
-                    <h2>Shopping List</h2>
-                    <p>Take charge of your shopping with our easy to use and user friendly shopping list maker that accepts both price of items, and quantity</p>
+        <div class="overviewcontainer">
+            <div class="OverviewContainer-block">
+                <div class="Overviewblock-image one"></div>
+                <h2>Shopping List</h2>
+                <p>Take charge of your shopping with our easy to use and user friendly shopping list maker that accepts both price of items, and quantity</p>
                     
-                </div>
+            </div>
         
-                <div class="OverviewContainer-block">
+            <div class="OverviewContainer-block">
                     <div class="Overviewblock-image two"></div>
                     <h2>Score Board</h2>
                     <p>Most useful while playing card games like tabboo or needing to take down scores with time records. 
                         Also has a built in countdown alarm tone 
                     </p>
                     
-                </div>
+            </div>
         
-                <div class="OverviewContainer-block">
+            <div class="OverviewContainer-block">
                     <div class="Overviewblock-image three" ></div>
                     <h2>Unit Converter</h2>
                     <p>Keep track of those major convertions with the unit converter! </p>
                     
-                </div>
             </div>
-        </div>
-
+            </div>
+    </div>
+    
       
-    </div> 
-     
+    
+<script src="navigationBar.js"></script>   
 </body>
 </html>

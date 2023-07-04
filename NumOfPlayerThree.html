@@ -11,23 +11,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Playfair+Display:wght@500&family=Roboto+Slab&display=swap" rel="stylesheet">
    
 </head>
-<body class="wrapper">
+<body>
 
-    <div class="wrapper">
-        <div class="navElements">
-            <div>
+    <div class="sidemenue" id="sidemnu">
+        <div class="smallLogoContainer">
             <img src="images/handyappfininshedPIC.PNG" class="handyLOGO">
-            </div>
-
-            <ul class="navLinks">
-                <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
-                <li><a href="ShoppingPrompt.html"><i class="fas fa-shopping-cart"></i>Shopping List</a></li>
-                <li><a href="scoreBoard.html"><i class="fas fa-edit"></i>Score Board</a></li>
-                
-                <li><a href="unitconverter.html"><i class="fas fa-balance-scale"></i>Unit Converter</a></li>
-                
-            </ul>
+            <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">×</a>
         </div>
+
+        <div class="navelements">
+            <a href="index.html"><i class="fas fa-home"></i>Home</a>
+            <a href="ShoppingPrompt.html"><i class="fas fa-shopping-cart"></i>Shopping List</a>
+            <a href="scoreBoard.html"><i class="fas fa-edit"></i>Score Board</a>
+            <a href="unitconverter.html"><i class="fas fa-balance-scale"></i>Unit Converter</a>
+        
+        </div>
+    
+    </div>
+
+    <div class="pageBody" id="pagebdy">
+        <button class="openbutton" onclick="openNav()">☰</button>
 
         <div class="CountdownAndPlayerheading">
 
@@ -234,10 +237,8 @@
             <input type="number" id="playerThreeResultDisplay" class="playerThreeResult" disabled>
             
         </div>
-
-
-
-    </div> 
+    
+<script src="navigationBar.js"></script>
 <script src="scoreboard.js"></script>     
 </body>
 </html>
