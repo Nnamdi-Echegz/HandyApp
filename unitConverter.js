@@ -150,3 +150,8 @@ function convertMilesToKilometers() {
     kilometerInput.value = '';
   }
 }
+
+export default {
+  convertFootToCentimeter,
+  convertCentimeterToFoot,
+};
